@@ -11,7 +11,7 @@
 * [Acknowledgements](#acknowledgements)
 
 
-## Problem Statement :-
+## Problem Statement
 Imagine you are working as a data scientist at a home electronics company which manufactures
 state of the art smart televisions. You want to develop a cool feature in the smart-TV that
 can recognise five different gestures performed by the user which will help users control the TV
@@ -24,7 +24,7 @@ corresponds to a specific command:
 ● Right swipe: 'Jump' forward 10 seconds
 ● Stop: Pause the movie
 
-### Understanding the Dataset :-
+### Understanding the Dataset
 
 Here’s the data: https://drive.google.com/uc?id=1ehyrYBQ5rbQQe6yL4XbLWe3FMvuVUGiL
 
@@ -37,13 +37,13 @@ to what the smart TV will Use.
 
 ![Alt text](new_template.png "a title")
 
-### Objective :-
+### Objective
 Your task is to train a model on the 'train' folder which performs well on the 'val' folder as well (as
 usually done in ML projects). We have withheld the test folder for evaluation purposes - your final
 model's performance will be tested on the 'test' set.
 
 
-## Model Architecture :-
+## Model Architecture
 For analysing videos using neural networks, two types of architectures are used commonly. One is
 the standard CNN + RNN architecture in which you pass the images of a video through a CNN which
 extracts a feature vector for each image, and then pass the sequence of these feature vectors
@@ -76,7 +76,7 @@ classification problem such as this one).
 ![Alt text](CNN_RNN_architecture.png "Figure 1: A simple representation of working of a 3D-CNN")
 
 
-## Data Generator :-
+## Data Generator
 This is one of the most important part of the code. In the generator, we are going to
 pre-process the images as we have images of 2 different dimensions (360 x 360 and 120 x
 160) as well as create a batch of video frames. The generator should be able to take a batch
@@ -91,7 +91,7 @@ be a simple and effective way to get rid of distortions caused by lights and sha
 in an image.
 
 
-## Technologies Used :-
+## Technologies Used
 - pandas - 1.3.4
 - numpy - 1.20.3
 - matplotlib - 3.4.3
@@ -103,7 +103,7 @@ in an image.
 - cv2 (OpenCV) - 4.5.5
 - keras - 2.6.0
 
-## Acknowledgements :-
+## Acknowledgements
 This project was an assignment provided by the Upgrad.
 Reference taken for this assignment are:-
 - https://www.geeksforgeeks.org/
